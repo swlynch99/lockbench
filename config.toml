@@ -1,0 +1,11 @@
+
+warmup = 1000
+iterations = 1000
+batch_size = 10000
+threads = 2
+
+workload = "increment"
+mutex = "std"
+
+[workloads.memcpy]
+bytes = 1024
